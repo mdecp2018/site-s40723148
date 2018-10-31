@@ -28,7 +28,7 @@
 <v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
 </v>
 <v t="leo.20180827201621.13" a="E"><vh>各式內容引用範例</vh>
-<v t="leo.20180827201621.14"><vh>導入數學符號與方程式</vh>
+<v t="leo.20180827201621.14" a="E"><vh>導入數學符號與方程式</vh>
 <v t="leo.20180827201621.15"><vh>LaTeX 格式方程式</vh></v>
 </v>
 <v t="leo.20180827201621.16"><vh>導入縮排程式碼</vh>
@@ -45,7 +45,7 @@
 <v t="leo.20181019133445.4"><vh>導入縮排程式碼</vh>
 <v t="leo.20181019133445.5"><vh>引用程式碼</vh></v>
 </v>
-<v t="leo.20181019133445.6"><vh>導入影片</vh>
+<v t="leo.20181019133445.6" a="E"><vh>導入影片</vh>
 <v t="leo.20181019133445.7"><vh>iframe 導入影片</vh></v>
 </v>
 </v>
@@ -135,7 +135,7 @@ QLineEdit#editorLabel {
 <t tx="leo.20180827201556.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
 <t tx="leo.20180827201621.1"></t>
-<t tx="leo.20180827201621.10">## 2018Fall 分組網際簡報
+<t tx="leo.20180827201621.10">## 40723148 分組網際簡報
 
 ### 虎科大機械設計工程系
 
@@ -353,7 +353,11 @@ make.start()
 
 						
 </t>
-<t tx="leo.20181019133445.3">## 基本git指令操作練習</t>
+<t tx="leo.20181019133445.3">## 基本git指令操作練習
+
+&lt;iframe src="https://youtu.be/Ta9sLxtqhNI" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
 <t tx="leo.20181019133445.4">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
