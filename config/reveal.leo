@@ -27,8 +27,8 @@
 <v t="leo.20180827201621.11"><vh>快捷鍵</vh>
 <v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20180827201621.13" a="E"><vh>各式內容引用範例</vh>
-<v t="leo.20180827201621.14" a="E"><vh>導入數學符號與方程式</vh>
+<v t="leo.20180827201621.13"><vh>各式內容引用範例</vh>
+<v t="leo.20180827201621.14"><vh>導入數學符號與方程式</vh>
 <v t="leo.20180827201621.15"><vh>LaTeX 格式方程式</vh></v>
 </v>
 <v t="leo.20180827201621.16"><vh>導入縮排程式碼</vh>
@@ -38,7 +38,7 @@
 <v t="leo.20180827201621.19"><vh>iframe 導入影片</vh></v>
 </v>
 </v>
-<v t="leo.20181019133445.1" a="E"><vh>各式內容引用範例</vh>
+<v t="leo.20181019133445.1"><vh>GIT</vh>
 <v t="leo.20181019133445.2" a="E"><vh>導入數學符號與方程式</vh>
 <v t="leo.20181019133445.3"><vh>LaTeX 格式方程式</vh></v>
 </v>
@@ -48,6 +48,9 @@
 <v t="leo.20181019133445.6" a="E"><vh>導入影片</vh>
 <v t="leo.20181019133445.7"><vh>iframe 導入影片</vh></v>
 </v>
+</v>
+<v t="leo.20181101235217.1" a="E"><vh>封面投影片</vh>
+<v t="leo.20181101235217.2"><vh>封面投影片內容</vh></v>
 </v>
 </v>
 </v>
@@ -411,6 +414,22 @@ make.start()
 ### 導入影片 template
 
 &lt;iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20181101235217.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181101235217.2">## W4網際簡報
+
+* [CMSimfly](https://github.com/chiamingyen/cmsimfly) 操作
+
+* [Onshape](https://www.onshape.com/) 操作
+
 </t>
 </tnodes>
 </leo_file>
