@@ -49,8 +49,8 @@
 <v t="leo.20181019133445.7"><vh>iframe 導入影片</vh></v>
 </v>
 </v>
-<v t="leo.20181102151717.1" a="E"><vh>封面投影片</vh>
-<v t="leo.20181102151717.2"><vh>封面投影片內容</vh></v>
+<v t="leo.20181103022019.1" a="E"><vh>封面投影片</vh>
+<v t="leo.20181103022019.2"><vh>封面投影片內容</vh></v>
 </v>
 </v>
 </v>
@@ -415,7 +415,7 @@ make.start()
 
 &lt;iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 </t>
-<t tx="leo.20181102151717.1">&lt;section data-markdown&gt;
+<t tx="leo.20181103022019.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
@@ -424,7 +424,7 @@ make.start()
 
 						
 </t>
-<t tx="leo.20181102151717.2">## W4網際簡報
+<t tx="leo.20181103022019.2">## W4網際簡報
 
 * [CMSimfly](https://github.com/chiamingyen/cmsimfly) 操作
 
