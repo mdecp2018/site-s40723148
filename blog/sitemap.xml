@@ -4,63 +4,63 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>https://mdecp2018.github.io/site-s40723148/blog/</loc>
-<lastmod>2018-10-19T15:10:23-00:00</lastmod>
+<loc>./</loc>
+<lastmod>2019-01-11T12:10:57-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://mdecp2018.github.io/site-s40723148/blog/archives.html</loc>
-<lastmod>2018-10-19T15:10:23-00:00</lastmod>
+<loc>./archives.html</loc>
+<lastmod>2019-01-11T12:10:57-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://mdecp2018.github.io/site-s40723148/blog/tags.html</loc>
-<lastmod>2018-10-19T15:10:23-00:00</lastmod>
+<loc>./tags.html</loc>
+<lastmod>2019-01-11T12:10:57-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://mdecp2018.github.io/site-s40723148/blog/categories.html</loc>
-<lastmod>2018-10-19T15:10:23-00:00</lastmod>
+<loc>./categories.html</loc>
+<lastmod>2019-01-11T12:10:57-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://mdecp2018.github.io/site-s40723148/blog/pages/about/</loc>
+<loc>./pages/about/</loc>
 <lastmod>2018-10-12T14:08:26+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://mdecp2018.github.io/site-s40723148/blog/2018-Fall-Project-Blog.html</loc>
+<loc>./2018-Fall-Project-Blog.html</loc>
 <lastmod>2018-09-10T11:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://mdecp2018.github.io/site-s40723148/blog/category/misc.html</loc>
+<loc>./category/misc.html</loc>
 <lastmod>2018-09-10T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://mdecp2018.github.io/site-s40723148/blog/tag/2018fall.html</loc>
+<loc>./tag/2018fall.html</loc>
 <lastmod>2018-09-10T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://mdecp2018.github.io/site-s40723148/blog/author/nfumde.html</loc>
+<loc>./author/nfumde.html</loc>
 <lastmod>2018-09-10T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
