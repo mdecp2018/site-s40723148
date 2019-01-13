@@ -98,7 +98,7 @@ print(y)</pre>
 <h2>Week18</h2>
 <p>期末學習成果短片</p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/ySJjQJ3d38o" width="560"></iframe><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/VZj2sVAkDmQ" width="560"></iframe></p><h1>期末專題</h1>
-<h2>Python語法</h2>
+<p>Python 語法</p>
 <p>Python 3 官方教材: <a href="https://docs.python.org/3/index.html">https://docs.python.org/3/index.html</a> </p>
 <p>Python tutorial: <a href="https://docs.python.org/3/tutorial/index.html">https://docs.python.org/3/tutorial/index.html</a> (英文)</p>
 <p>Python 教學: <a href="https://python-doc-tw.github.io/tutorial/index.html">https://python-doc-tw.github.io/tutorial/index.html</a> </p>
@@ -1863,11 +1863,96 @@ doc["ball"].bind('click', Ball.prog)
 </script>
 </p>
 <!-- ball ends -->
-<p><button id="keyword">Keyword</button><button id="ex1">Ex1</button><button id="ex2">Ex2</button><button id="ex3">Ex3</button><button id="ex4">Ex4</button><button id="forloop">Ex5</button><button id="guess">Guess</button><button id="autoguess">Autoguess</button><button id="lottery">Lottery</button><button id="temp">Temp</button><button id="draw">Draw</button><button id="flag">Flag</button><button id="bezier">Bezier</button><button id="turtle1">Turtle1</button><button id="turtle2">Turtle2</button><button id="turtle3">Turtle3</button><button id="turtle4">Turtle4</button><button id="turtle5">Turtle5</button><button id="turtle6">Turtle6</button><button id="turtle7">Turtle7</button><button id="turtle8">Turtle8</button><button id="konva1">Konva1</button><button id="bunny">Bunny</button><button id="ball">Ball</button><button id="spur">Spur</button><button id="ycqsort">Ycqsort</button><button id="clear">Clear</button></p>
+<p><button id="keyword">Keyword</button><button id="ex1">Ex1</button><button id="ex2">Ex2</button><button id="ex3">Ex3</button><button id="ex4">Ex4</button><button id="forloop">Ex5</button><button id="guess">Guess</button><button id="autoguess">Autoguess</button><button id="lottery">Lottery</button><button id="temp">Temp</button><button id="draw">Draw</button><button id="flag">Flag</button><button id="bezier">Bezier</button><button id="turtle1">Turtle1</button><button id="turtle2">Turtle2</button><button id="turtle3">Turtle3</button><button id="turtle4">Turtle4</button><button id="turtle5">Turtle5</button><button id="turtle6">Turtle6</button><button id="turtle7">Turtle7</button><button id="turtle8">Turtle8</button><button id="konva1">Konva1</button><button id="bunny">Bunny</button><button id="ball">Ball</button><button id="spur">Spur</button><button id="ycqsort">Ycqsort</button><button id="clear">Clear</button><button id="konva1">ag8-m5</button></p>
 <h4>參考資料:</h4>
 <p><a href="/downloads/turtle_intro.pdf">turtle_intro.pdf</a></p>
 <p><a href="/downloads/turtle_intro2.pdf">turtle_intro2.pdf</a></p>
-<p>其他擷取程式的方式: <a href="http://mde.tw/2017springvcp/blog/web-based-python.html">http://mde.tw/2017springvcp/blog/web-based-python.html</a> </p><h1>Python 手冊</h1>
+<p>其他擷取程式的方式: <a href="http://mde.tw/2017springvcp/blog/web-based-python.html">http://mde.tw/2017springvcp/blog/web-based-python.html</a> </p><h2>選號器</h2>
+<p>老師原本的選號器</p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false"># 大樂透電腦選號
+# lottery
+from browser import document, html, alert
+import random
+
+try:
+    total = int(input("請問要出幾張彩卷號碼?"))
+except:
+    alert("請輸入要選擇電腦選號數量的'整數'")
+    total = int(input("請問要出幾張彩卷號碼?"))
+
+# 準備將電腦選出的號碼, 輸出到內定 id="brython_div" 的標註區域
+output_div = document["brython_div"]
+output_div &lt;= "以下將出 " + str(total) + " 張電腦選號彩卷:" + html.BR()
+for i in range(1, total + 1):
+    # 利用 list(range()) 產生 1 到 49 的 population list
+    # 然後再透過 random.sample(population, k) 
+    # 從 population, 產生 k 個不同的數字
+    numbers = random.sample(list(range(1, 49)), 6)
+    output_div &lt;= str(i) + ". 電腦選號為: " + str(numbers) + html.BR()
+</pre>
+<p>我們進行改版後的選號器</p>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">from browser import document, html, alert
+import random
+
+n = int(input("是否指定號碼,是請輸入 0 否請輸入 1"))
+if (n == 1):
+    try:
+        total = int(input("請問要出幾張彩卷號碼?"))
+    except:
+        alert("請輸入要選擇電腦選號數量的'整數'")
+        total = int(input("請問要出幾張彩卷號碼?"))
+        
+    print("以下將出 " + str(total) + " 張電腦選號彩卷:")
+    for i in range(1, total + 1):
+    # 利用 list(range()) 產生 1 到 49 的 population list
+    # 然後再透過 random.sample(population, k) 
+    # 從 population, 產生 k 個不同的數字
+        numbers = random.sample(list(range(1, 100)), 10)
+        print(str(i) + ". 電腦選號為: " + str(numbers))
+    print("預祝您中獎!")
+if (n == 0):
+    try:
+        total = int(input("請問要出幾張彩卷號碼?"))
+    except:
+        alert("請輸入要選擇電腦選號數量的'整數'")
+        total = int(input("請問要出幾張彩卷號碼?"))
+
+    try:
+        idd = int(input("請輸入請輸入自選號"))
+        
+    except:
+        alert("請輸入自選號'整數'")
+        idd = int(input("請輸入自選號")) 
+    if (0 &lt; idd &lt; 101):
+        print("以下將出 " + str(total) + " 張電腦選號彩卷:")
+        for i in range(1, total + 1):
+            numbers = random.sample(list(range(1, 100)), 9)
+            print(str(i) + ". 電腦選號為: " + str(numbers) + ". 指定號為: " + str(idd))
+        print("預祝您中獎!")
+    if (idd &gt; 100 or idd&lt;1):
+        try:
+            ice = int(input("請輸入自選號'1~100'"))
+        
+        except:
+            alert("請輸入自選號''1~100'")
+            ice = int(input("請輸入自選號'1~100'")) 
+        print("以下將出 " + str(total) + " 張電腦選號彩卷:")
+        for i in range(1, total + 1):
+            numbers = random.sample(list(range(1, 100)), 9)
+            print(str(i) + ". 電腦選號為: " + str(numbers) + ". 指定號為: " + str(ice))
+        print("預祝您中獎!")  
+    
+        
+        
+    
+
+
+    
+    
+    </pre>
+<p>我們在改版中的選號器加入了可以指定號碼的功能</p>
+<p>測試影片</p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/s9cJcQY36Rc" width="560"></iframe></p><h1>Python 手冊</h1>
 <p>計算機程式教材:  <a href="http://mde.tw/cp2018/content/">http://mde.tw/cp2018/content/</a> </p>
 <p>可攜程式下載: <a href="https://drive.google.com/file/d/1DWtyoUhl8CycKJ8uulB3viRXE39KqpE1/view?usp=sharing">p37.7z</a></p>
 <h1>OnShape 手冊</h1>
