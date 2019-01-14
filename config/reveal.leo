@@ -27,14 +27,14 @@
 <v t="leo.20180827201621.11"><vh>快捷鍵</vh>
 <v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20180827201621.13"><vh>各式內容引用範例</vh>
+<v t="leo.20180827201621.13" a="E"><vh>各式內容引用範例</vh>
 <v t="leo.20180827201621.14"><vh>導入數學符號與方程式</vh>
 <v t="leo.20180827201621.15"><vh>LaTeX 格式方程式</vh></v>
 </v>
-<v t="leo.20180827201621.16"><vh>導入縮排程式碼</vh>
+<v t="leo.20180827201621.16" a="E"><vh>導入縮排程式碼</vh>
 <v t="leo.20180827201621.17"><vh>引用程式碼</vh></v>
 </v>
-<v t="leo.20180827201621.18"><vh>導入影片</vh>
+<v t="leo.20180827201621.18" a="E"><vh>導入影片</vh>
 <v t="leo.20180827201621.19"><vh>iframe 導入影片</vh></v>
 </v>
 </v>
@@ -54,6 +54,39 @@
 </v>
 <v t="leo.20190111115515.1" a="E"><vh>封面投影片</vh>
 <v t="leo.20190111115515.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20190115011329.1" a="E"><vh>封面投影片</vh>
+<v t="leo.20190115011329.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20190115011442.1" a="E"><vh>封面投影片</vh>
+<v t="leo.20190115011442.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20190115012530.1" a="E"><vh>封面投影片</vh>
+<v t="leo.20190115012530.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20190115012558.1" a="E"><vh>封面投影片</vh>
+<v t="leo.20190115012558.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20190115015031.1"><vh>封面投影片</vh>
+<v t="leo.20190115015031.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20190115021045.1" a="E"><vh>封面投影片</vh>
+<v t="leo.20190115021045.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20190115021959.1" a="E"><vh>封面投影片</vh>
+<v t="leo.20190115021959.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20190115022739.1"><vh>封面投影片</vh>
+<v t="leo.20190115022739.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20190115031218.1" a="E"><vh>導入影片</vh>
+<v t="leo.20190115031218.2"><vh>iframe 導入影片</vh></v>
+</v>
+<v t="leo.20190115024736.1"><vh>封面投影片</vh>
+<v t="leo.20190115024736.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20190115024802.1"><vh>封面投影片</vh>
+<v t="leo.20190115024802.2"><vh>封面投影片內容</vh></v>
 </v>
 </v>
 </v>
@@ -447,6 +480,136 @@ make.start()
 
 #### Test
 
+</t>
+<t tx="leo.20190115011329.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190115011329.2"># W18分組專題簡報
+
+
+</t>
+<t tx="leo.20190115011442.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190115011442.2">## 組員及分配工作
+
+#### 高華生:組長˙簡報
+#### 陳世杰:無
+#### 陳彥旭 : 資料收集˙簡報
+#### 陳聖中 : 資料收集˙簡報
+#### 黃奕慶 : 網站維護˙簡報
+#### 鄭博鴻 : 網站維護 ˙簡報˙ 改版程式
+
+</t>
+<t tx="leo.20190115012530.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190115012530.2"># 題目:選號器</t>
+<t tx="leo.20190115012558.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190115012558.2">## 老師原本選號器之程式
+&lt;img src="./../picture/22.png" width="600px"/&gt;</t>
+<t tx="leo.20190115015031.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190115015031.2">### 修改後選號器之程式
+&lt;img src="./../picture/23.png" width="600px"/&gt;</t>
+<t tx="leo.20190115021045.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190115021045.2">### 黑框:執行後網頁跳出"是否指定號碼"
+### 籃框:若輸入值為0,則執行紅框程式,輸入值為1則進入下一段程式
+### 紅框:執行後會跳出"請問耀幾張彩卷"若輸入不正確則跳出"請輸入要選擇電腦選號數量的'整數'"若輸入正確則會列印出輸入值組數的10個任意號碼</t>
+<t tx="leo.20190115021959.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190115021959.2">### 程式說明
+&lt;img src="./../picture/25.png" width="600px"/&gt;</t>
+<t tx="leo.20190115022739.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190115022739.2">#### 執行後網頁跳出"請問要出幾張彩卷號碼?"若輸入錯誤跳出"請輸入要選擇電腦選號數量的'整數'按下確定後再次跳出"請問要出幾張彩卷號碼?"若輸入正確則跳出"請輸入請輸入自選號"若輸入值在範圍內則會列印出指定張數之9個任意數及1個自選號之彩券若輸入值為大於或小於指定範圍則會跳出"請輸入自選號'1~100'"若輸入正確則會跟前一步驟一樣列印出指定張數之9個任意數及1個自選號之彩券若輸入值</t>
+<t tx="leo.20190115024736.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190115024736.2"># 心得</t>
+<t tx="leo.20190115024802.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190115024802.2">#### 原本以為只是要將老師原本的指令做改變,是很快就可以做出來的,沒想到我們花了兩三個禮拜才完成,其中最辛苦的部分是感覺快要完成了,沒想到卻因為前面用錯指令而造成後面也跟著錯,這樣的情況在我們做改版時發生了很多次,也想過有沒有更簡單的題目,但一想到我們只是對老師寫的程式做改版,如果連這個都放棄的話我們可能無法做出什麼進階的程式,而且程式是一個設計工程師必備的工具,如果連工具都丟了我們還能怎麼當一個頂尖的工程師｡</t>
+<t tx="leo.20190115031218.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190115031218.2">## 改版後程式測試
+
+&lt;iframe src="./../picture/2019-01-13_21-06-46.mp4" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 </t>
 </tnodes>
 </leo_file>
